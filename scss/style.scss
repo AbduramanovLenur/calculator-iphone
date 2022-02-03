@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --dark: #000;
+    --light: #fff;
+    --orange: #F69906;
+    --orange-hover: #758808;
+    --grey: #9f9f9f;
+    --grey-hover: #745e5e;
+    --dark-grey: #313131;
+    --dark-grey-hover: #27231c;
+    --marginX: 15px;
+}
+body {
+    font-family: 'Supermercado One', cursive;
+    color: var(--light);
+}
+li {
+    list-style: none;
+}
+a,
+button {
+    display: inline-flex;
+}
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@import "blocks/calculator";
